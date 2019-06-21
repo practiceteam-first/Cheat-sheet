@@ -1,0 +1,9 @@
+1, find ~/ -type f 2> /dev/null | wc -l --Q #配下ではなく１階層だけをみる方法は？
+
+2, find ~/ -type f 2> /dev/null | sort | head -n 5
+
+3, find ~/ -type f 2> /dev/null | sort -r | head -n 5
+
+4, cut -d : -f 1 /etc/passwd | sort -r | head -n 5
+
+5, cut -d : -f 7 /etc/passwd | sort | uniq

@@ -1,0 +1,5 @@
+1, cat /etc/passwd | grep /bin/bash | cut -d : -f 1 | sort
+   Q #これはgrepでしぼって残ったのは/bin/bashを使ってるとなる
+    #最初から-f 7が/bin/bash/と分かったら-f 1を切り取る方法は？
+
+2, find /etc/ -name "network.conf"

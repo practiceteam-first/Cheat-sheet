@@ -1,0 +1,11 @@
+1, find /var/log -type f -name "*.log"  --*--
+1, find /var/log -type f -name "log$"   --!-- Q
+
+2, find /home -type d -name ".log"  --Q # dev/nullに入れなくてもいいのか
+#あと検索対象を決める文字列をクウォートを付けないといけないのか
+
+3, locate 'syslog'  --Q # ファイルに絞る方法は？
+
+4, man date
+
+5, which unix1.sh

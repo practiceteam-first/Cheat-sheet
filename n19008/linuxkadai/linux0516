@@ -1,0 +1,13 @@
+1, alias ul='unix1.sh'
+   type ul
+   unalias ul
+
+2, echo $LANG
+
+3, echo $SHELL
+
+4, echo $PATH
+
+5, export NLS_LANG='JAPNESE_JAPAN.AL32UTF8'
+    # exportは環境設定
+   printenv | grep 'NLS_LANG'  --Q #envの意味
